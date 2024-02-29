@@ -1,0 +1,89 @@
+@font-face {
+    font-family: myFont;
+    src: url('constelation.ttf')
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url('Donsky.ttf')
+}
+
+h1{
+    color: white;
+    font-family: myFont;
+    text-align: center;
+    font-size: 85px;
+    
+}
+
+.video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    object-fit: fill;
+    opacity: 40%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+body{
+    background-color: black;
+    
+}
+
+.about{
+    color: white;
+    font-size: 18px;
+    display: flex;
+}
+
+.technique{
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+a{
+    color: white;
+    font-size: 22px; 
+    padding: 10px 20px;
+    margin: 0 20px;
+    text-decoration: None;
+    font-family: myfont;
+    border: 3px solid transparent; /* Initial border color */
+    text-align: center;
+    transition: border-color 0.3s ease; /* Transition effect on border-color */
+}
+
+
+a:hover{
+    border-color: white;
+}
+
+.text-about{
+    padding-top: 50px;
+    padding-right: 150px;
+    font-size: 24px;
+    font-family: "myFont2";
+    text-align: justify;
+}
+
+.techniqueContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.text-technique{
+    padding-top: 50px;
+    padding-right: 120px;
+    padding-left: 120px;
+    font-size: 24px;
+    font-family: "myFont2";
+    text-align: justify;
+}
